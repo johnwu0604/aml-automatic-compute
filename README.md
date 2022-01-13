@@ -11,20 +11,38 @@ For your convenience, this repository includes a training script that can be use
 
 1. Navigate to the [Azure ML Studio UI](https://master.ml.azure.com/?wsid=/subscriptions/4aaa645c-5ae2-4ae9-a17a-84b9023bc56a/resourceGroups/john/providers/Microsoft.MachineLearningServices/workspaces/john-west&flight=ClusterlessCompute,clusterlessComputeRun&tid=72f988bf-86f1-41af-91ab-2d7cd011db47).
 
+![alt text](./img/1.png)
+
 2. From the top left corner, click on `+ New` and then followed by `Job (preview)`.
 
-3. Make sure that `Automatic (preview)` is selected as the compute type. Then select your compute requirements and click `Next`.
+![alt text](./img/2.png)
+
+3. Make sure that `Automatic (Preview)` is selected as the compute type. Select your compute requirements and click `Next`.
+
+![alt text](./img/3.png)
 
 4. Select the `TensorFlow 2.4` environment and click `Next`
 
-5. Upload the `train.py` file, enter `python train.py` as the start command, and click `Next`.
+![alt text](./img/4.png)
+
+5. Upload the attached `train.py` file, enter `python train.py` as the start command, and click `Next`.
+
+![alt text](./img/5.png)
 
 6. Review your settings and click `Create`
 
+![alt text](./img/6.png)
+
 7. Wait for the job to prepare. This may take a couple minutes if a job has not been submitted for awhile.
 
-8. Once the job starts, you should be able to see metrics, logs, and monitoring information like with any other Azure ML job!
+![alt text](./img/7.png)
+
+8. Once the job starts, you should be able to see metrics, logs, and monitoring information like with any other Azure ML job.
+
+![alt text](./img/8.png)
 
 ## How to submit feedback
 
 To submit feedback, please use the built-in feedback tool in the Azure ML Studio UI.
+
+![alt text](./img/9.png)

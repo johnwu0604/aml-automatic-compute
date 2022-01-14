@@ -7,37 +7,49 @@ To join the private preview, please fill out this [form](#).
 
 ## How to use the feature
 
-For your convenience, this repository includes a training script that can be used as a sample to run the job. Steps `4-5` are defaulted to use the provided training script. If using a customized script, make sure to fill out the parameters accordingly based on your scenario.
+### Submit a sample job 
 
-1. Navigate to the [Azure ML Studio UI](https://master.ml.azure.com/?wsid=/subscriptions/4aaa645c-5ae2-4ae9-a17a-84b9023bc56a/resourceGroups/john/providers/Microsoft.MachineLearningServices/workspaces/john-west&flight=ClusterlessCompute,clusterlessComputeRun&tid=72f988bf-86f1-41af-91ab-2d7cd011db47).
+1. Navigate to the [Azure ML Studio UI](https://master.ml.azure.com/?wsid=/subscriptions/4aaa645c-5ae2-4ae9-a17a-84b9023bc56a/resourceGroups/john/providers/Microsoft.MachineLearningServices/workspaces/john-west&flight=clusterlesscompute,clusterlesscomputeruns,aml5minstowow&tid=72f988bf-86f1-41af-91ab-2d7cd011db47) and click on the `Try it out` card.
+
+![alt text](./img/11.png)
+
+2. Review the configuration and click `Run sample job`
 
 ![alt text](./img/1.png)
 
-2. From the top left corner, click on `+ New` and then followed by `Job (preview)`.
+3. Wait for the job to queue, and then it should complete in ~5 minutes.
 
-![alt text](./img/2.png)
+![alt text](./img/10.png)
 
-3. Make sure that `Automatic (Preview)` is selected as the compute type. Select your compute requirements and click `Next`.
+### Submit a job using a custom script 
+
+For your convenience, this repository includes a training script that can be used as an example to run the job. Steps `3-4` are defaulted to use the provided training script. If using your own code, make sure to fill out the parameters accordingly based on your scenario.
+
+1. Navigate to the [Azure ML Studio UI](https://master.ml.azure.com/?wsid=/subscriptions/4aaa645c-5ae2-4ae9-a17a-84b9023bc56a/resourceGroups/john/providers/Microsoft.MachineLearningServices/workspaces/john-west&flight=clusterlesscompute,clusterlesscomputeruns,aml5minstowow&tid=72f988bf-86f1-41af-91ab-2d7cd011db47) and click on the `Train your own model` card.
+
+![alt text](./img/12.png)
+
+2. Make sure that `Automatic (Preview)` is selected as the compute type. Select your compute requirements and click `Next`.
 
 ![alt text](./img/3.png)
 
-4. Select the `TensorFlow 2.4` environment and click `Next`
+3. Select the `TensorFlow 2.4` environment and click `Next`
 
 ![alt text](./img/4.png)
 
-5. Upload the attached `train.py` file, enter `python train.py` as the start command, and click `Next`.
+4. Upload the attached `train.py` file, enter `python train.py` as the start command, and click `Next`.
 
 ![alt text](./img/5.png)
 
-6. Review your settings and click `Create`
+5. Review your settings and click `Create`
 
 ![alt text](./img/6.png)
 
-7. Wait for the job to prepare. This may take a couple minutes if a job has not been submitted for awhile.
+6. Wait for the job to prepare. This may take a couple minutes if a job has not been submitted for awhile.
 
 ![alt text](./img/7.png)
 
-8. Once the job starts, you should be able to see metrics, logs, and monitoring information like with any other Azure ML job.
+7. Once the job starts, you should be able to see metrics, logs, and monitoring information like with any other Azure ML job.
 
 ![alt text](./img/8.png)
 

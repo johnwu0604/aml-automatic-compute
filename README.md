@@ -15,7 +15,7 @@ To join the private preview, please fill out this [form](#).
 
 2. Review the configuration and click `Run sample job`
 
-![alt text](./img/1.png)
+![alt text](./img/13.png)
 
 3. Wait for the job to queue, and then it should complete in ~5 minutes.
 

@@ -9,7 +9,7 @@ To join the private preview, please fill out this [form](#).
 
 ### Submit a sample job 
 
-1. Navigate to the [Azure ML Studio UI](https://master.ml.azure.com/?wsid=/subscriptions/4aaa645c-5ae2-4ae9-a17a-84b9023bc56a/resourceGroups/john/providers/Microsoft.MachineLearningServices/workspaces/john-west&flight=clusterlesscompute,clusterlesscomputeruns,aml5minstowow&tid=72f988bf-86f1-41af-91ab-2d7cd011db47) and click on the `Try it out` card.
+1. Navigate to the <a href="https://master.ml.azure.com/?wsid=/subscriptions/4aaa645c-5ae2-4ae9-a17a-84b9023bc56a/resourceGroups/john/providers/Microsoft.MachineLearningServices/workspaces/john-west&flight=clusterlesscompute,clusterlesscomputeruns,aml5minstowow&tid=72f988bf-86f1-41af-91ab-2d7cd011db47" target="_blank">Azure ML Studio UI</a> and click on the `Try it out` card. 
 
 ![alt text](./img/11.png)
 
@@ -25,7 +25,7 @@ To join the private preview, please fill out this [form](#).
 
 For your convenience, this repository includes a training script that can be used as an example to run the job. Steps `3-4` are defaulted to use the provided training script. If using your own code, make sure to fill out the parameters accordingly based on your scenario.
 
-1. Navigate to the [Azure ML Studio UI](https://master.ml.azure.com/?wsid=/subscriptions/4aaa645c-5ae2-4ae9-a17a-84b9023bc56a/resourceGroups/john/providers/Microsoft.MachineLearningServices/workspaces/john-west&flight=clusterlesscompute,clusterlesscomputeruns,aml5minstowow&tid=72f988bf-86f1-41af-91ab-2d7cd011db47) and click on the `Train your own model` card.
+1. Navigate to the <a href="https://master.ml.azure.com/?wsid=/subscriptions/4aaa645c-5ae2-4ae9-a17a-84b9023bc56a/resourceGroups/john/providers/Microsoft.MachineLearningServices/workspaces/john-west&flight=clusterlesscompute,clusterlesscomputeruns,aml5minstowow&tid=72f988bf-86f1-41af-91ab-2d7cd011db47" target="_blank">Azure ML Studio UI</a> and click on the `Train your own model` card.
 
 ![alt text](./img/12.png)
 
